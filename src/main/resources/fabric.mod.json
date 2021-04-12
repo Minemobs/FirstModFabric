@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "firstmodfabric",
+  "version": "${version}",
+  "name": "FirstModFabric",
+  "description": "WE LIKE BRO",
+  "authors": [
+    "minemobs"
+  ],
+  "contact": {
+    "repo": "https://github.com/Minemobs/FirstModFabric"
+  },
+  "license": "MIT",
+  "icon": "assets/firstmodfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.minemobs.firstmodfabric.FirstModFabric"
+    ]
+  },
+  "mixins": [
+    "firstmodfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
