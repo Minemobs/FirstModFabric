@@ -3,5 +3,7 @@
 
   "itemGroup.firstmodfabric.general": "My First Fabric Mod",
 
-  "block.firstmodfabric.ruby_block": "Ruby Block"
+  "block.firstmodfabric.ruby_block": "Ruby Block",
+
+  "enchantment.firstmodfabric.explosion_enchant": "Explosion"
 }
