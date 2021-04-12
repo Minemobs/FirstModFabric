@@ -1,5 +1,6 @@
 package fr.minemobs.firstmodfabric;
 
+import fr.minemobs.firstmodfabric.registry.ModBlocks;
 import fr.minemobs.firstmodfabric.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -14,6 +15,7 @@ public class FirstModFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 
     public static final ItemGroup FABRIC_CREATIVE_TAB = FabricItemGroupBuilder.build(

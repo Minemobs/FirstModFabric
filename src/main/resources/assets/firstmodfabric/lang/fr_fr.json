@@ -1,4 +1,5 @@
 {
   "item.firstmodfabric.ruby": "Rubis",
-  "itemGroup.firstmodfabric.general": "My First Fabric Mod"
+  "itemGroup.firstmodfabric.general": "My First Fabric Mod",
+  "block.firstmodfabric.ruby_block": "Bloc De Rubis"
 }
