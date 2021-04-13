@@ -1,7 +1,7 @@
 package fr.minemobs.firstmodfabric.registry;
 
 import fr.minemobs.firstmodfabric.FirstModFabric;
-import fr.minemobs.firstmodfabric.enchantments.ExplosionEnchantment;
+import fr.minemobs.firstmodfabric.objects.enchantments.ExplosionEnchantment;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
@@ -15,7 +15,8 @@ public class ModEnchantments {
 
     public static final Map<Enchantment, String> ENCHANTMENTS = new HashMap<>();
 
-    public static final Enchantment EXPLOSION_ENCHANT = createEnchantment(new ExplosionEnchantment(Enchantment.Rarity.VERY_RARE, EnchantmentTarget.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND}), "explosion_enchant");
+    public static final Enchantment EXPLOSION_ENCHANT = createEnchantment(new ExplosionEnchantment(Enchantment.Rarity.VERY_RARE,
+            EnchantmentTarget.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND}), "explosion_enchant");
 
     private static Enchantment createEnchantment(Enchantment enchantment, String name) {
         ENCHANTMENTS.put(enchantment, name);

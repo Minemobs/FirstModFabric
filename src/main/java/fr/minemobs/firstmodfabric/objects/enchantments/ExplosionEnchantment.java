@@ -1,4 +1,4 @@
-package fr.minemobs.firstmodfabric.enchantments;
+package fr.minemobs.firstmodfabric.objects.enchantments;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;

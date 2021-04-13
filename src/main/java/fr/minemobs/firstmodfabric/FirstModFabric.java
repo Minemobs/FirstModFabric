@@ -1,5 +1,6 @@
 package fr.minemobs.firstmodfabric;
 
+import fr.minemobs.firstmodfabric.registry.ModArmors;
 import fr.minemobs.firstmodfabric.registry.ModBlocks;
 import fr.minemobs.firstmodfabric.registry.ModEnchantments;
 import fr.minemobs.firstmodfabric.registry.ModItems;
@@ -18,6 +19,7 @@ public class FirstModFabric implements ModInitializer {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
         ModEnchantments.registerEnchants();
+        ModArmors.registerArmors();
     }
 
     public static final ItemGroup FABRIC_CREATIVE_TAB = FabricItemGroupBuilder.build(

@@ -8,7 +8,7 @@
     "minemobs"
   ],
   "contact": {
-    "repo": "https://github.com/Minemobs/FirstModFabric"
+    "sources": "https://github.com/Minemobs/FirstModFabric"
   },
   "license": "MIT",
   "icon": "assets/firstmodfabric/icon.png",
