@@ -10,9 +10,12 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
+import java.util.logging.Logger;
+
 public class FirstModFabric implements ModInitializer {
 
     public static final String MOD_ID = "firstmodfabric";
+    public static final Logger LOGGER = Logger.getLogger("First Mod Fabric");
 
     @Override
     public void onInitialize() {
@@ -25,4 +28,8 @@ public class FirstModFabric implements ModInitializer {
     public static final ItemGroup FABRIC_CREATIVE_TAB = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "general"), () -> new ItemStack(ModItems.RUBY)
     ).setName("fabric_tab");
+
+    public static Identifier id(String name) {
+        return new Identifier(MOD_ID, name);
+    }
 }

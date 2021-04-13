@@ -15,6 +15,7 @@ public class ModItems {
     public static final Map<Item, String> ITEMS = new HashMap<>();
 
     //Items
+    public static final Item TEST_ITEM = createItem(new Item.Settings().group(FirstModFabric.FABRIC_CREATIVE_TAB), "test_item");
     public static final Item RUBY = createItem(new Item.Settings().group(FirstModFabric.FABRIC_CREATIVE_TAB), "ruby");
 
     //Block Items
